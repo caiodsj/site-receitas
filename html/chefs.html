@@ -1,0 +1,201 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="/css/style4.css"> <!-- CSS -->
+  <script src="/js/script4.js" defer></script> <!-- SCRIPT -->
+</head>
+
+<body>
+  <header class="fixed-header">
+    <nav class="navbar navbar-expand-lg border-bottom border-body navbarBg" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/html/home.html"><img src="/images/logoBranca.png" alt="logo" class="imgLogo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link aNav" aria-current="page" href="/html/home.html">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  aNav" href="/html/receitas.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Receitas
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/html/receitas.html#entrada">Entradas</a></li>
+                <li><a class="dropdown-item" href="/html/receitas.html#pratoPrincipal">Pratos principais</a></li>
+                <li><a class="dropdown-item" href="/html/receitas.html#acompanhamento">Acompanhamentos</a></li>
+                <li><a class="dropdown-item" href="/html/receitas.html#sobremesa">Sobremesas</a></li>
+                <li><a class="dropdown-item" href="/html/receitas.html#bebida">Bebidas</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="/html/receitas.html">Ver todas receitas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link aNav" href="/html/contato.html">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active aNav" href="#">Chefs</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Qual seu pedido?" aria-label="Search">
+            <button class="btn btn-outline-success btnNav" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h1>Conheça nossos chefs</h1>
+    <div class="chefs-box">
+      <div class="chef1"><a href="#caio"><img class="imgChefs" src="/images/Chef_Caio.png" alt="">
+          <p class="pChef">Caio</p>
+        </a></div>
+
+      <div class="chef2"><a href="#elaine"><img class="imgChefs" src="/images/Baker_Elaine.png" alt="">
+          <p class="pChef">Elaine</p>
+        </a></div>
+
+      <div class="chef3"><a href="#lucas"><img class="imgChefs" src="/images/Lucas.png" alt="">
+          <p class="pChef">Lucas</p>
+        </a></div>
+
+      <div class="chef4"><a href="#felipe"><img class="imgChefs" src="/images/Fellipe.png" alt="">
+          <p class="pChef">Fellipe</p>
+        </a></div>
+
+      <div class="chef5"><a href="#vinicius"><img class="imgChefs" src="/images/Vinicius.png" alt="">
+          <p class="pChef">Vinícius</p>
+        </a></div>
+
+      <div class="chef6"><a href="#gustavo"><img class="imgChefs" src="/images/Gustavo.png" alt="">
+          <p class="pChef">Gustavo</p>
+        </a></div>
+    </div>
+    <section class="contentChefs">
+      <div class="descChef" id="caio">
+        <img class="imgContent" src="/images/Chef_Caio.png" alt="">
+        <div class="text">
+          <h2>Caio Diego</h2>
+          <p>Caio é um talentoso chef de cozinha conhecido por sua paixão pela culinária contemporânea. Ele começou sua
+            jornada culinária desde cedo, explorando diferentes sabores e técnicas. Seu estilo é marcado pela
+            criatividade e pelo uso de ingredientes frescos e sazonais. Caio é reconhecido por seus pratos inovadores e
+            apresentações artísticas, o que lhe rendeu prestígio em vários concursos gastronômicos.</p>
+          <h5><b>Especialização: </b> Gastronomia Molecular</h5>
+          <p>Caio é um renomado chef especializado em gastronomia molecular, uma abordagem inovadora que explora as
+            propriedades físicas e químicas dos alimentos. Com sua habilidade única, ele transforma ingredientes comuns
+            em pratos surpreendentes e criativos, criando texturas e sabores únicos que encantam os comensais.</p>
+        </div>
+      </div>
+      <div class="descChef" id="elaine">
+        <img class="imgContent" src="/images/Baker_Elaine.png" alt="">
+        <div class="text">
+          <h2>Elaine Martina</h2>
+          <p>Elaine é uma chef talentosa e carismática, apaixonada por comida reconfortante e tradicional. Seu amor pela
+            cozinha começou na infância, inspirada pelas receitas de sua avó. Ela acredita que a comida é uma forma de
+            conectar pessoas e culturas, e isso se reflete em seus pratos acolhedores e saborosos. Elaine é uma
+            defensora da cozinha regional e é famosa por suas deliciosas sobremesas que lembram a infância de muitos.
+          </p>
+          <h5><b>Especialização: </b> Confeitaria Artística</h5>
+          <p>Elaine é uma talentosa confeiteira com especialização em confeitaria artística. Seus bolos e sobremesas são
+            verdadeiras obras de arte, pois ela domina técnicas de decoração e modelagem que dão vida a criações
+            incríveis e deliciosas, deixando uma marca única em cada uma de suas criações.</p>
+        </div>
+      </div>
+      <div class="descChef" id="lucas">
+        <img class="imgContent" src="/images/Lucas.png" alt="">
+        <div class="text">
+          <h2>Lucas Belletti</h2>
+          <p>Lucas é um chef experiente e viajado, com vasto conhecimento em várias cozinhas do mundo. Sua paixão pela
+            gastronomia o levou a explorar diferentes culturas e técnicas culinárias, incorporando ingredientes locais
+            em seus pratos. Seu estilo é marcado pela fusão de sabores e pela apresentação impecável. Lucas é admirado
+            por sua habilidade de transformar ingredientes simples em pratos sofisticados.</p>
+          <h5><b>Especialização: </b> Culinária Asiática</h5>
+          <p>Com uma paixão pela culinária asiática, Lucas é um chef experiente nessa especialização. Ele domina as
+            sutilezas e os sabores únicos das diversas cozinhas asiáticas, oferecendo pratos autênticos, desde sushi
+            requintado até pratos picantes tailandeses e pratos saborosos da culinária chinesa.</p>
+        </div>
+      </div>
+      <div class="descChef" id="felipe">
+        <img class="imgContent" src="/images/Fellipe.png" alt="">
+        <div class="text">
+          <h2>Fellipe Dineli</h2>
+          <p>Felipe é um chef renomado e perfeccionista, conhecido por sua abordagem meticulosa na cozinha. Ele é
+            especializado na culinária francesa clássica e domina técnicas tradicionais de alta gastronomia. Seus pratos
+            são uma verdadeira obra de arte, com atenção aos detalhes e harmonia de sabores. Felipe é um chef exigente
+            consigo mesmo e busca sempre elevar sua arte culinária.</p>
+          <h5><b>Especialização: </b> Alta Gastronomia Francesa</h5>
+          <p>Felipe é um chef especializado na alta gastronomia francesa. Com treinamento em escolas de culinária
+            renomadas da França, ele é mestre em técnicas clássicas e apresentações elegantes. Seus pratos refinados e
+            sofisticados são uma verdadeira experiência gastronômica.</p>
+        </div>
+      </div>
+      <div class="descChef" id="vinicius">
+        <img class="imgContent" src="/images/Vinicius.png" alt="">
+        <div class="text">
+          <h2>Vinícius Grossert</h2>
+          <p>Vinicius é um chef carismático e talentoso, apaixonado pela culinária brasileira e sul-americana. Ele
+            acredita na valorização dos ingredientes locais e busca resgatar sabores e receitas tradicionais em seus
+            pratos. Vinicius é conhecido por sua energia contagiante e por suas habilidades com churrasco e grelhados.
+            Sua cozinha é uma celebração da cultura e da diversidade culinária.</p>
+          <h5><b>Especialização: </b> Cozinha vegana e vegetariana</h5>
+          <p>Gustavo é um chef especializado em cozinha vegana e vegetariana. Sua expertise está em criar pratos
+            saborosos, nutritivos e livres de produtos de origem animal, utilizando ingredientes frescos e sazonais, e
+            apresentando opções deliciosas para quem busca uma alimentação consciente.</p>
+
+        </div>
+      </div>
+      <div class="descChef" id="gustavo">
+        <img class="imgContent" src="/images/Gustavo.png" alt="">
+        <div class="text">
+          <h2>Gustavo Hamann</h2>
+          <p>Gustavo é uma chef talentosa que quebrou barreiras e conquistou seu espaço na gastronomia. Sua paixão pela
+            cozinha começou cedo, mas ele enfrentou desafios como mulher em uma indústria dominada por homens. Com
+            dedicação e habilidade, Gustavo ganhou reconhecimento por sua abordagem criativa e pratos inspirados. Ela é
+            uma defensora da igualdade de gênero na cozinha e inspira muitas mulheres a seguirem seus sonhos culinários.
+          </p>
+          <h5><b>Especialização: </b> Churrasco e Grelhados</h5>
+          <p>
+            Gustavo é um expert em churrasco e grelhados. Sua especialização inclui o domínio das diferentes técnicas
+            de preparação de carnes, desde cortes especiais até temperos exclusivos, proporcionando sabores suculentos e
+            irresistíveis.</p>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="direitos">&copy; 2023 ByteDelights. Todos os direitos reservados.</div>
+    <div class="contatos">
+      <div class="p"><b>Instagram: </b>@bytedelights</div>
+      <div class="p"><b>E-mail: </b>bytedelights@gmail.com</div>
+      <div class="p"><b>Whatsapp: </b>47 99999-0000</div>
+    </div>
+  </footer>
+  <button id="btn-top" title="Voltar para o topo">&uarr;</button>
+
+</body>
+
+</html>
