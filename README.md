@@ -1,4 +1,5 @@
 Devs2Blu - Site de Receitas
+
 Bem-vindo ao repositório do projeto ByteDelights, um site de receitas incrível desenvolvido pelo nosso grupo. Neste projeto, exploramos as tecnologias web, incluindo HTML, CSS, JavaScript e Bootstrap, para criar um espaço virtual dedicado a compartilhar deliciosas receitas culinárias. 
 
 Visão Geral do Projeto
