@@ -27,6 +27,14 @@ body{
     background:#d8d8d8;
     color: whitesmoke;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
 /* -- HEADER ALTERADO-- */
 .fixed-header{
     position: fixed;
