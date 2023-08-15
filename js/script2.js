@@ -1,21 +1,18 @@
 const btnEntrada = document.getElementById('btn-entrada');
 const sectionEntrada = document.getElementById('entrada');
-const alturaOriginal = 580;
 let isExpanded = false;
-
+const hiddenCards = document.querySelectorAll('.entrada:not(.visible)')
 btnEntrada.addEventListener('click', () => {
-  if (!isExpanded) {
-    sectionEntrada.style.height = 'auto';
-    const alturaTotal = sectionEntrada.scrollHeight;
-    sectionEntrada.style.height = `${alturaTotal}px`;
-    isExpanded = true;
-    btnEntrada.innerText = 'Ver menos entradas -'
-  } else {
-    sectionEntrada.style.height = `${alturaOriginal}px`;
-    isExpanded = false;
-    btnEntrada.innerText = 'Ver mais entradas +'
+  hiddenCards.forEach(card => {
+    card.classList.toggle('visible');
+  });
+  if (isExpanded) {
+    btnEntrada.innerText = 'Ver mais entradas +';
     sectionEntrada.scrollIntoView({ behavior: 'smooth' })
+  } else {
+    btnEntrada.innerText = 'Ver menos entradas -';
   }
+  isExpanded = !isExpanded;
 });
 /* --------------- */
 const btnPratoP = document.getElementById('btn-pratoP');

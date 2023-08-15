@@ -135,15 +135,20 @@ main section{
 
 /* SECTION ENTRADA */
 #entrada{
-    height: 580px;
     position: relative;
     transition: max-height 1s ease;
     display: flex;
     align-items: flex-start;
 }
 .contentEntrada{
-    position: absolute;
-    top: 0;
+    width: 100%;
+}
+.entrada{
+    display: none;
+    transition: all 1s ease;
+}
+.visible{
+    display: block;
 }
 /* SECTION PRATO PRINCIPAL */
 #pratoPrincipal{
