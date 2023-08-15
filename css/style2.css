@@ -103,7 +103,7 @@ main{
     align-items: center;
     text-align: center;
     color: whitesmoke;
-    background: url('/images/bgintro.jpg');
+    background: url('../images/bgintro.jpg');
     background-size: cover;
     background-position: center;
     z-index: 1;
@@ -274,94 +274,94 @@ img{
 }
 
 .quibe{
-    background: url('/images/kibe.webp');
+    background: url('../images/kibe.webp');
 }
 .bolinho{
-    background-image: url('/images/bolinho.webp');
+    background-image: url('../images/bolinho.webp');
 }
 .torresmo{
-    background: url('/images/Torresmo.webp');
+    background: url('../images/Torresmo.webp');
 }
 .bolinhoDeArroz{
-    background: url('/images/bolinho-de-arroz-blog.webp');
+    background: url('../images/bolinho-de-arroz-blog.webp');
 }
 .pastelAngu{
-    background: url('/images/pastel-de-angu.webp');
+    background: url('../images/pastel-de-angu.webp');
 }
 .cogumelo{
-    background: url('/images/cogumelos.webp');
+    background: url('../images/cogumelos.webp');
 }
 .risotoVerde{
-    background: url('/images/risoto-verde.webp');
+    background: url('../images/risoto-verde.webp');
 }
 .bife-parm{
-    background: url('/images/bife_parmegiana.webp');
+    background: url('../images/bife_parmegiana.webp');
 }
 .lasanha{
-    background: url('/images/lasanha.webp');
+    background: url('../images/lasanha.webp');
 }
 .panqueca{
-    background: url('/images/panqueca.avif');
+    background: url('../images/panqueca.avif');
 }
 .salmaoAssado{
-    background: url('/images/salmao-assado.webp');
+    background: url('../images/salmao-assado.webp');
 }
 .sobrecoxa{
-    background: url('/images/sobrecoxa-frango.webp');
+    background: url('../images/sobrecoxa-frango.webp');
 }
 .salada{
-    background: url('/images/salada\ tropical.webp');
+    background: url('../images/salada\ tropical.webp');
 }
 .salada-caesar{
-    background: url('/images/salada\ caesar.jpeg');
+    background: url('../images/salada\ caesar.jpeg');
 }
 .sunomono{
-    background: url('/images/sunomono.jpg');
+    background: url('../images/sunomono.jpg');
 }
 .tabule-ervas{
-    background: url('/images/tabule-ervas.webp');
+    background: url('../images/tabule-ervas.webp');
 }
 .batata-bolinha{
-    background: url('/images/batata-bolinha.webp');
+    background: url('../images/batata-bolinha.webp');
 }
 .arroz-beterraba{
-    background: url('/images/arroz-beterraba.webp');
+    background: url('../images/arroz-beterraba.webp');
 }
 .manjar{
-    background: url('/images/manjar.jpg');
+    background: url('../images/manjar.jpg');
 }
 .pudim{
-    background: url('/images/pudim-de-leite-condensado.webp');
+    background: url('../images/pudim-de-leite-condensado.webp');
 }
 .mousseChocolate{
-    background: url('/images/mousechocolate.jpg');
+    background: url('../images/mousechocolate.jpg');
 }
 .flor-figo{
-    background: url('/images/flor-figo.webp');
+    background: url('../images/flor-figo.webp');
 }
 .brigadeiro-abobora{
-    background: url('/images/brigadeiro-abobora.webp');
+    background: url('../images/brigadeiro-abobora.webp');
 }
 .sagu-uva{
-    background: url('/images/sagu-uva.webp');
+    background: url('../images/sagu-uva.webp');
 }
 .chocolateQuente{
-    background: url('/images/chocolate-quente.webp');
+    background: url('../images/chocolate-quente.webp');
 }
 .gemada{
-    background: url('/images/gemada.webp');
+    background: url('../images/gemada.webp');
 }
 .quentao{
-    background: url('/images/quentão.webp');
+    background: url('../images/quentão.webp');
 }
 .gim{
-    background: url('/images/gim.webp');
+    background: url('../images/gim.webp');
 }
 .cafe-turco{
-    background: url('/images/cafe-turco.webp');
+    background: url('../images/cafe-turco.webp');
 }
 .sangria{
-    background: url('/images/sangria.webp');
+    background: url('../images/sangria.webp');
 }
 
 .modal-body {

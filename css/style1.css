@@ -149,7 +149,7 @@ a:hover{
     text-align: center;
     display: flex;
     justify-content: center;
-    background: url("/images/fundo.jpg");
+    background: url("../images/fundo.jpg");
     z-index: 0;
     height: auto;
 }
@@ -326,7 +326,7 @@ a:hover{
 /*Seção FINAL*/
 
 .maisReceitas{
-    background: url("/images/wallpaperflare.com_wallpaper.jpg");
+    background: url("../images/wallpaperflare.com_wallpaper.jpg");
     background-size:cover;
     display: flex;
     flex-direction: row;

@@ -97,7 +97,7 @@ body {
 
 .esquerda {
     position: relative;
-    background-image: url('/images/bg-contato.jpg');
+    background-image: url('../images/bg-contato.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
