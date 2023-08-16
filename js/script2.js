@@ -1,14 +1,16 @@
+/* --------------- */
 const btnEntrada = document.getElementById('btn-entrada');
 const sectionEntrada = document.getElementById('entrada');
 let isExpanded = false;
 const hiddenCards = document.querySelectorAll('.entrada:not(.visible)')
+const positionEnt = sectionEntrada.getBoundingClientRect().top + window.scrollY;
 btnEntrada.addEventListener('click', () => {
   hiddenCards.forEach(card => {
     card.classList.toggle('visible');
   });
   if (isExpanded) {
     btnEntrada.innerText = 'Ver mais entradas +';
-    sectionEntrada.scrollIntoView({ behavior: 'smooth' })
+    window.scrollTo({ top: positionEnt - 65, behavior: "smooth" });
   } else {
     btnEntrada.innerText = 'Ver menos entradas -';
   }
@@ -19,80 +21,76 @@ const btnPratoP = document.getElementById('btn-pratoP');
 const sectionPratoP = document.getElementById('pratoPrincipal');
 const alturaOriginalPP = 580;
 let isExpandedPP = false;
-
+const hiddenCardsPP = document.querySelectorAll('.pratoPrincipal:not(.visible)')
+const positionPP = sectionPratoP.getBoundingClientRect().top + window.scrollY;
 btnPratoP.addEventListener('click', () => {
-  if (!isExpandedPP) {
-    sectionPratoP.style.height = 'auto';
-    const alturaTotalPP = sectionPratoP.scrollHeight;
-    sectionPratoP.style.height = `${alturaTotalPP}px`;
-    isExpandedPP = true;
-    btnPratoP.innerText = 'Ver menos pratos principais -'
+  hiddenCardsPP.forEach(card => {
+    card.classList.toggle('visible');
+  });
+  if (isExpandedPP) {
+    btnPratoP.innerText = 'Ver mais pratos principais +';
+    window.scrollTo({ top: positionPP - 65, behavior: "smooth" });
   } else {
-    sectionPratoP.style.height = `${alturaOriginalPP}px`;
-    isExpandedPP = false;
-    btnPratoP.innerText = 'Ver mais pratos principais +'
-    sectionPratoP.scrollIntoView({ behavior: 'smooth' })
+    btnPratoP.innerText = 'Ver menos pratos principais -';
   }
+  isExpandedPP = !isExpandedPP;
 });
 /* --------------- */
 const btnAcomp = document.getElementById('btn-acompanhamento');
 const sectionAcomp = document.getElementById('acompanhamento');
 const alturaOriginalA = 580;
 let isExpandedA = false;
-
+const hiddenCardsAcomp = document.querySelectorAll('.acompanhamento:not(.visible)')
+const positionAcomp = sectionAcomp.getBoundingClientRect().top + window.scrollY;
 btnAcomp.addEventListener('click', () => {
-  if (!isExpandedA) {
-    sectionAcomp.style.height = 'auto';
-    const alturaTotalA = sectionAcomp.scrollHeight;
-    sectionAcomp.style.height = `${alturaTotalA}px`;
-    isExpandedA = true;
-    btnAcomp.innerText = 'Ver menos acompanhamentos -'
+  hiddenCardsAcomp.forEach(card => {
+    card.classList.toggle('visible');
+  });
+  if (isExpandedA) {
+    btnAcomp.innerText = 'Ver mais acompanhamentos +';
+    window.scrollTo({ top: positionAcomp - 65, behavior: "smooth" });
   } else {
-    sectionAcomp.style.height = `${alturaOriginalA}px`;
-    isExpandedA = false;
-    btnAcomp.innerText = 'Ver mais acompanhamentos +'
-    sectionAcomp.scrollIntoView({ behavior: 'smooth' })
+    btnAcomp.innerText = 'Ver menos acompanhamentos -';
   }
+  isExpandedA = !isExpandedA;
 });
 /* --------------- */
 const btnSobre = document.getElementById('btn-sobremesa');
 const sectionSobre = document.getElementById('sobremesa');
 const alturaOriginalS = 580;
 let isExpandedS = false;
-
+const hiddenCardsSobre = document.querySelectorAll('.sobremesa:not(.visible)')
+const positionSobre = sectionSobre.getBoundingClientRect().top + window.scrollY;
 btnSobre.addEventListener('click', () => {
-  if (!isExpandedS) {
-    sectionSobre.style.height = 'auto';
-    const alturaTotalS = sectionSobre.scrollHeight;
-    sectionSobre.style.height = `${alturaTotalS}px`;
-    isExpandedS = true;
-    btnSobre.innerText = 'Ver menos sobremesas -'
+  hiddenCardsSobre.forEach(card => {
+    card.classList.toggle('visible');
+  });
+  if (isExpandedS) {
+    btnSobre.innerText = 'Ver mais sobremesas +';
+    window.scrollTo({ top: positionSobre - 65, behavior: "smooth" });
   } else {
-    sectionSobre.style.height = `${alturaOriginalS}px`;
-    isExpandedS = false;
-    btnSobre.innerText = 'Ver mais sobremesas +'
-    sectionSobre.scrollIntoView({ behavior: 'smooth' })
+    btnSobre.innerText = 'Ver menos sobremesas -';
   }
+  isExpandedS = !isExpandedS;
 });
 /* --------------- */
 const btnBebida = document.getElementById('btn-bebida');
 const sectionBebida = document.getElementById('bebida');
 const alturaOriginalB = 580;
 let isExpandedB = false;
-
+const hiddenCardsBebida = document.querySelectorAll('.bebida:not(.visible)')
+const positionBebida = sectionBebida.getBoundingClientRect().top + window.scrollY;
 btnBebida.addEventListener('click', () => {
-  if (!isExpandedB) {
-    sectionBebida.style.height = 'auto';
-    const alturaTotalB = sectionBebida.scrollHeight;
-    sectionBebida.style.height = `${alturaTotalB}px`;
-    isExpandedB = true;
-    btnBebida.innerText = 'Ver menos bebidas -'
+  hiddenCardsBebida.forEach(card => {
+    card.classList.toggle('visible');
+  });
+  if (isExpandedB) {
+    btnBebida.innerText = 'Ver mais bebidas +';
+    window.scrollTo({ top: positionBebida - 65, behavior: "smooth" });
   } else {
-    sectionBebida.style.height = `${alturaOriginalB}px`;
-    isExpandedB = false;
-    btnBebida.innerText = 'Ver mais bebidas +'
-    sectionBebida.scrollIntoView({ behavior: 'smooth' })
+    btnBebida.innerText = 'Ver menos bebidas -';
   }
+  isExpandedB = !isExpandedB;
 });
 
 /* ----- */

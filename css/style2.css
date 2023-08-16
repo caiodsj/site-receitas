@@ -132,64 +132,21 @@ main section{
     justify-content: center;
     align-items: flex-start;
 }
-
-/* SECTION ENTRADA */
-#entrada{
-    position: relative;
-    transition: max-height 1s ease;
-    display: flex;
-    align-items: flex-start;
-}
-.contentEntrada{
+/* ALL SECTION */
+.content{
     width: 100%;
 }
-.entrada{
+.entrada, .pratoPrincipal, .acompanhamento, .sobremesa, .bebida{
     display: none;
     transition: all 1s ease;
 }
 .visible{
     display: block;
 }
-/* SECTION PRATO PRINCIPAL */
-#pratoPrincipal{
-    height: 580px;
+#entrada, #pratoPrincipal, #acompanhamento, #sobremesa, #bebida{
     position: relative;
-    transition: max-height 1s ease;
 }
-.contentPratoPrincipal{
-    position: absolute;
-    top: 0;
-}
-/* SECTION ACOMPANHAMENTO */
-#acompanhamento{
-    height: 580px;
-    position: relative;
-    transition: max-height 1s ease;
-}
-.contentAcompanhamento{
-    position: absolute;
-    top: 0;
-}
-/* SECTION SOBREMESA */
-#sobremesa{
-    height: 580px;
-    position: relative;
-    transition: max-height 1s ease;
-}
-.contentSobremesa{
-    position: absolute;
-    top: 0;
-}
-/* SECTION BEBIDA */
-#bebida{
-    height: 580px;
-    position: relative;
-    transition: max-height 1s ease;
-}
-.contentBebida{
-    position: absolute;
-    top: 0;
-}
+
 /* ----------- */
 .btn-mostrarMais{
     display: flex;
